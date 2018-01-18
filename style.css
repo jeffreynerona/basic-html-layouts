@@ -76,11 +76,11 @@ a {
 	text-align: right;
 }
 
-#threeboxes {
+#threeboxes, #fiveboxes, #advanced {
 	margin: 20px;
 }
 
-#threeboxes #hero {
+#threeboxes #hero, #fiveboxes #hero, #advanced #hero {
     width: 100%;
     background: #000000;
     height: 420px;
@@ -101,17 +101,6 @@ a {
     float: right;
 }
 
-#fiveboxes {
-	margin: 20px;
-}
-
-#fiveboxes #hero {
-    width: 100%;
-    background: #000000;
-    height: 420px;
-    margin-bottom: 20px;
-}
-
 #fiveboxes .featured {
     height: 250px;
     background: #000000;
@@ -124,4 +113,43 @@ a {
 #fiveboxes .last {
     margin-right: 0;
     float: right;
+}
+
+#advanced #title {
+	height: 40px;
+	width: 300px;
+	background: #000000;
+	margin-bottom: 20px;
+}
+
+#advanced #threecol {
+	margin-bottom: 20px;
+}
+
+#advanced > div {
+	height: 250px;
+	margin-bottom: 20px;
+}
+
+#advanced .threecol .first,
+#advanced .threecol .second,
+#advanced .threecol .third {
+	display: block;
+	margin-right: 2%;
+	float: left;
+	height: 250px;
+	background: #000000;
+}
+
+#advanced .threecol .first {
+	width: 49%;
+}
+
+#advanced .threecol .second,
+#advanced .threecol .third {
+	width: 23.5%;
+}
+
+#advanced .threecol .third {
+	margin-right: 0;
 }
